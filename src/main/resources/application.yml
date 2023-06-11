@@ -1,0 +1,8 @@
+
+spring:
+    application:
+        name: crud-example-milton
+
+datasource:
+    my-connection:
+        jdbc-url: jdbc:postgreSQL://localhost5423/books_system
