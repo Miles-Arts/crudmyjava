@@ -19,4 +19,7 @@ public class BookService {
         return respository.getAllBooks();
     }
 
+    public long createBook(Book newBook) {
+        return respository.createBook(newBook);
+    }
 }
