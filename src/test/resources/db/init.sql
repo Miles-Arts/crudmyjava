@@ -1,6 +1,6 @@
-create database os_systems;
+create database books_system;
 
-\connect os_systems;
+\connect books_system;
 
 create table books (
   id bigint primary key generated always as identity,
